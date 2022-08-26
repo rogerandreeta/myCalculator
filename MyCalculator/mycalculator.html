@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>MyCalculator JS</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- Awesome fonts -->
+		<script src="https://kit.fontawesome.com/709d0c1fe1.js" crossorigin="anonymous"></script>
+
+    <!-- Search Engine -->
+    <meta property="description"
+        content="MyCalculator by Roger Andreeta" />
+	<link rel='icon' type='image/x-icon' href='favicon.png' />
+</head>
+
+<body>
+	<div class="container">
+		<h1><a style="text-decoration: none; color: #f1c40f; margin-left: 0.25rem;" href="" onclick="location.reload();"><span style="color:#fff">My</span>CALCULATOR</a></h1 >
+		<div class="Mycalculator">
+			<input type="text" name="screen" id="answer" readonly>
+			<table>
+				<tr>
+					<td><button style="background-color: #ccc">(</button></td>
+					<td><button style="background-color: #ccc">)</button></td>
+					<td><button style="background-color: #ccc; font-weight: bold;">C</button></td>
+                    <td><button style="background-color: #f1c40f" id="division">÷</button></td>
+				</tr>
+				<tr>
+					<td><button>7</button></td>
+					<td><button>8</button></td>
+					<td><button>9</button></td>
+					<td><button style="background-color: #f1c40f" id="multiply">x</button></td>
+				</tr>
+				<tr>
+					<td><button>4</button></td>
+					<td><button>5</button></td>
+					<td><button>6</button></td>
+					<td><button style="background-color: #f1c40f" id="minus">-</button></td>
+				</tr>
+				<tr>
+					<td><button>1</button></td>
+					<td><button>2</button></td>
+					<td><button>3</button></td>
+					<td><button style="background-color: #f1c40f" id="add">+</button></td>
+				</tr>
+				<tr>
+					<td><button>0</button></td>
+					<td><button style="font-weight: bold;">.</button></td>
+					<td><button style="background-color: #ccc">%</button></td>
+					<td><button style="background-color: #f1c40f; font-weight: bold;">=</button></td>
+				</tr>
+			</table>
+			<hr style="max-width: 50vw;">
+			<div style="font-size:1rem; display: flex; align-items: center; justify-content: center;">Made with &nbsp;<i class="fas fa-heart" style="color:#f1c40f"></i> &nbsp;by<a style="text-decoration: none; color: #f1c40f; margin-left: 0.25rem;"
+                target="_blank" href="#">Roger Andreeta</a></div>
+		</div>
+	</div>
+</body>
+<script src="mycalc.js"></script>
+
+</html>
